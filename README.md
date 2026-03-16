@@ -16,6 +16,10 @@ Marti 8:00 - 10:00 | Sala ?
 - Design Patterns
 
 ## Tutoriat 1 
+Theory:
+- [Pointeri, Referinte](./tutoriat1/pointeri_referinte.md)
+- [Overloading](./tutoriat1/supraincarcarea_functiilor.md)
+
 
 # Colocviile date in anii trecuti:
 - [Colocviu_CTI_2021](./colocvii/subiecte_colocviu/Colocviu_CTI_2021.pdf)
