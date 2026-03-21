@@ -1,6 +1,6 @@
 # Tutoriat Programare Orientata pe Obiecte (POO)
 
-Miercuri 8:00 - 10:00 | **Sala 102**
+Marti 8:00 - 10:00 | **Sala 111**
 
 ## Tutoriat 1 
 - [Pointeri, Referinte](./tutoriat1/pointeri_referinte.md)
@@ -19,6 +19,8 @@ Miercuri 8:00 - 10:00 | **Sala 102**
 - Template-uri
 - Design Patterns -->
 
+
+
 ## Colocviile date in anii trecuti:
 - [Colocviu_CTI_2021](./colocvii/subiecte_colocviu/Colocviu_CTI_2021.pdf)
 - [Colocviu_CTI_2022](./colocvii/subiecte_colocviu/Colocviu_CTI_2022.pdf)
@@ -31,6 +33,7 @@ Miercuri 8:00 - 10:00 | **Sala 102**
 - [Rezolvari](./colocvii/rezolvari_colocviu/)
 
 ## Resurse utile:
+- [Plan de invatamant OOP 2026](./plan_inv.pdf)
 - [Quiz-uri POO (examen)](https://oopquiz.fly.dev/index.php?id=1)
 - [Design Patterns - Refactoring Guru](https://refactoring.guru/design-patterns)
 
