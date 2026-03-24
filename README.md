@@ -2,24 +2,17 @@
 
 Marti 8:00 - 10:00 | **Sala 111**
 
+Proiectele noastre:
+- [Helpet: Veterinary Clinic Management System](https://github.com/georgiana-raluca-negru/Object-Oriented-Programming-1) (Raluca)
+- [Go Game - The chinese game of Go made in C++](https://github.com/petru-robu/GoGame) (Petru)
+
 ## Tutoriat 1 
 - [Pointeri, Referinte](./tutoriat1/pointeri_referinte.md)
 - [Overloading](./tutoriat1/supraincarcarea_functiilor.md)
 
-<!-- # Materie
-- Clase, Obiecte
-- Compunere
-- Constructori 
-- cc, op=, destr 
-- op<<
-- Mostenirei 
-- Virtual
-- Exceptii 
-- Dynamic Types & RTTI
-- Template-uri
-- Design Patterns -->
-
-
+## Tutoriat 2
+- [Clase, Operatori, Friend](./tutoriat2/clase.md)
+- [Mosteniri](./tutoriat2/mosteniri.md)
 
 ## Colocviile date in anii trecuti:
 - [Colocviu_CTI_2021](./colocvii/subiecte_colocviu/Colocviu_CTI_2021.pdf)
@@ -30,12 +23,19 @@ Marti 8:00 - 10:00 | **Sala 111**
 - [Colocviu_INFO_2023](/colocvii/subiecte_colocviu/Colocviu_INFO_2023.pdf)
 - [Colocviu_INFO_2024](/colocvii/subiecte_colocviu/Colocviu_INFO_2024.pdf)
 - [Colocviu_MI_2021](/colocvii/subiecte_colocviu/Colocviu_MI_2021.pdf)
+- [Simulare Colocviu 2022](/colocvii/subiecte_colocviu/SimulareColocviu.pdf)
+
 - [Rezolvari](./colocvii/rezolvari_colocviu/)
 
 ## Resurse utile:
+- [CPP Reference](https://cppreference.com/)
 - [Plan de invatamant OOP 2026](./plan_inv.pdf)
 - [Quiz-uri POO (examen)](https://oopquiz.fly.dev/index.php?id=1)
 - [Design Patterns - Refactoring Guru](https://refactoring.guru/design-patterns)
+
+Books:
+- [The C++ Programming Language 4th Edition Bjarne Stroustrup](https://chenweixiang.github.io/docs/The_C++_Programming_Language_4th_Edition_Bjarne_Stroustrup.pdf)
+- [Clean Code](https://ptgmedia.pearsoncmg.com/images/9780132350884/samplepages/9780132350884.pdf) 
 
 Other stuff:
 - [Life Advice From The Creator of C++](https://www.youtube.com/watch?v=-QxI-RP6-HM)

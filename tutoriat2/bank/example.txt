@@ -1,0 +1,98 @@
+Exercise Idea: Bank Accounts with Inheritance and Operators
+Goal: Model bank accounts in OOP style, with inheritance and operator overloading, without virtual functions.
+
+class BankAccount {
+private:
+    std::string owner;
+    double balance;
+
+public:
+    BankAccount(std::string n, double b) : owner(n), balance(b) {}
+
+    void deposit(double amount) { balance += amount; }
+    void withdraw(double amount) { if (balance >= amount) balance -= amount; }
+
+    double getBalance() const { return balance; }
+    std::string getOwner() const { return owner; }
+
+    // operator overloads
+    BankAccount operator+(double amount) const {
+        return BankAccount(owner, balance + amount);
+    }
+
+    BankAccount& operator+=(double amount) {
+        balance += amount;
+        return *this;
+    }
+
+    BankAccount operator-(double amount) const {
+        return BankAccount(owner, balance - amount);
+    }
+
+    friend std::ostream& operator<<(std::ostream& out, const BankAccount& acc) {
+        out << acc.owner << " : $" << acc.balance;
+        return out;
+    }
+};
+
+class SavingsAccount : public BankAccount {
+private:
+    double interestRate; // e.g., 0.05 for 5%
+
+public:
+    SavingsAccount(std::string n, double b, double rate)
+        : BankAccount(n, b), interestRate(rate) {}
+
+    void applyInterest() { *this += getBalance() * interestRate; }
+
+    // comparison operator
+    bool operator==(const SavingsAccount& other) const {
+        return getBalance() == other.getBalance();
+    }
+
+    // multiply operator to calculate future balance
+    double operator*(int years) const {
+        double future = getBalance();
+        for (int i = 0; i < years; i++)
+            future *= (1 + interestRate);
+        return future;
+    }
+};
+
+class CheckingAccount : public BankAccount {
+private:
+    double overdraftLimit;
+
+public:
+    CheckingAccount(std::string n, double b, double overdraft)
+        : BankAccount(n, b), overdraftLimit(overdraft) {}
+
+    void withdraw(double amount) {
+        if (getBalance() + overdraftLimit >= amount)
+            BankAccount::withdraw(amount);
+        else
+            std::cout << "Overdraft limit exceeded!\n";
+    }
+
+    CheckingAccount& operator-=(double amount) {
+        withdraw(amount);
+        return *this;
+    }
+};
+
+int main() {
+    SavingsAccount s("Alice", 1000, 0.05);
+    CheckingAccount c("Bob", 500, 200);
+
+    s += 200;             // deposit
+    c -= 600;             // withdraw with overdraft
+
+    s.applyInterest();    // apply interest
+    std::cout << s << "\n";
+    std::cout << c << "\n";
+
+    std::cout << "Alice's balance in 3 years: $" << (s * 3) << "\n";
+
+    if (s == SavingsAccount("Alice", 1260, 0.05))
+        std::cout << "Balances match!\n";
+}
