@@ -14,6 +14,16 @@ Proiectele noastre:
 - [Clase, Operatori, Friend](./tutoriat2/clase.md)
 - [Mosteniri](./tutoriat2/mosteniri.md)
 
+## Tutoriat 3
+- [Inline](./tutoriat3/inline.md)
+- [Static](./tutoriat3/static.md)
+- [Clase Abstracte](./tutoriat3/clase_abstracte.md)
+- [Virtual](./tutoriat3/virtual.md)
+
+## Tutoriat 4
+
+
+
 ## Colocviile date in anii trecuti:
 - [Colocviu_CTI_2021](./colocvii/subiecte_colocviu/Colocviu_CTI_2021.pdf)
 - [Colocviu_CTI_2022](./colocvii/subiecte_colocviu/Colocviu_CTI_2022.pdf)
