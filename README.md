@@ -21,8 +21,8 @@ Proiectele noastre:
 - [Virtual](./tutoriat3/virtual.md)
 
 ## Tutoriat 4
-
-
+- [vTables](./tutoriat4/vtable.md)
+- [Virtual inheritance](./tutoriat4/inheritance.md)
 
 ## Colocviile date in anii trecuti:
 - [Colocviu_CTI_2021](./colocvii/subiecte_colocviu/Colocviu_CTI_2021.pdf)
