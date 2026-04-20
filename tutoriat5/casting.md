@@ -4,7 +4,7 @@ In C++, casting-ul se imparte in doua categorii: implicit (automat) si explicit 
 
 - **Upcasting**: Trecerea de la o clasa derivata la una de baza (este sigur pentru ca derivata poate fi vazuta,in esenta, drept baza).
 - **Downcasting**: Trecerea de la o clasa de baza la una derivata (nesigur, necesita `dynamic_cast`).
-- ** C++ Casts**(`static`, `dynamic`, `const`, `reinterpret`): Inlocuiesc vechiul cast din C, oferind siguranta la compilare sau la executie.
+- **C++ Casts**(`static`, `dynamic`, `const`, `reinterpret`): Inlocuiesc vechiul cast din C, oferind siguranta la compilare sau la executie.
 
 ## 1. Upcasting si Downcasting
 
