@@ -51,7 +51,7 @@ public:
 
 class ArtefactArtistic : public Artefact
 {
-private:
+private:throw std::runtime_error("Eroare specifica");
     TipArtefactArtistic tip;
     Material material;
 
