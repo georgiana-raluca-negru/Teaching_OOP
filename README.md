@@ -23,7 +23,15 @@ Proiectele noastre:
 ## Tutoriat 4
 - [vTables, vPtrs](./tutoriat4/vtable.md)
 - [Virtual inheritance](./tutoriat4/inheritance.md)
-- [Exceptii](./tutoriat4/exceptii.md)
+- [Exceptii 1](./tutoriat4/exceptii.md)
+
+## Tutoriat 5
+- [Up/Down Casting](./tutoriat5/casting.md)
+- [Exceptii 2](./tutoriat5/more_on_exceptions.md)
+
+## Tutoriat 6
+- [Templates](./tutoriat6/templates.md)
+- [Smart Pointers](./tutoriat6/main.pdf)
 
 
 ## Colocviile date in anii trecuti:
