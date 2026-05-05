@@ -33,6 +33,9 @@ Proiectele noastre:
 - [Templates](./tutoriat6/templates.md)
 - [Smart Pointers](./tutoriat6/main.pdf)
 
+## Tutoriat 7
+- [Parametrii tip retur](./tutoriat7/parametri_tip_retur.md)
+
 
 ## Colocviile date in anii trecuti:
 - [Colocviu_CTI_2021](./colocvii/subiecte_colocviu/Colocviu_CTI_2021.pdf)
