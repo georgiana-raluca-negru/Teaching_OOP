@@ -36,6 +36,11 @@ Proiectele noastre:
 ## Tutoriat 7
 - [Parametrii tip retur](./tutoriat7/parametri_tip_retur.md)
 
+## Tutoriat 8
+
+## Tutoriat 9
+- design patterns
+
 
 ## Colocviile date in anii trecuti:
 - [Colocviu_CTI_2021](./colocvii/subiecte_colocviu/Colocviu_CTI_2021.pdf)
